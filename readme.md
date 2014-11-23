@@ -33,7 +33,6 @@ Once you have completed the steps above, you will then need to set up a database
 8. Go back into phpMyAdmin and back into your new, blank famedev database. Select `Import` from the navigation bar.
 9. Click `Choose file` and select the .zip file you have just downloaded. Leave all other options on this screen as is and then click `Go`.
 10. Navigate your browser to `localhost/famedev` to access your now-working local version of the site.
-11. 
 
 ##Pulling changes from GitHub##
 This section details how to pull from this GitHub repo from within Eclipse.
