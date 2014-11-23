@@ -24,9 +24,7 @@ Once you have completed the steps above, you will then need to set up a database
 1. Navigate your browser to `http://localhost/ampps/index.php?` and start phpMyAdmin within AMPPS.
 2. Select `New` in the sidebar to the left and create a new database and name it "famedev".
 3. Select your new database in the sidebar and select `SQL` from the navigation bar at the top of your screen.
-4. Enter the following commands (note the punctuation and remember the semicolons) and then click `Go`:
-* grant all on famedev.* to 'drupal'@'localhost' identified by 'drupal';
-* flush privileges;
+4. Enter the following commands (note the punctuation and remember the semicolons) and then click `Go`:  `grant all on famedev.* to 'drupal'@'localhost' identified by 'drupal';`  `flush privileges;`
 5. Go to `http://is-dsb.fairfield.edu/famedev/` and log in.
 6. Select `Backup and Migrate` in the navigation bar at the top of your screen.
 7. Click the link that reads `advanced backup page` and in there select `Download` from the `Backup Destination` dropdown menu. Click `Backup Now` and choose a place on your computer to download the .mysql file. This file will not need to be unzipped.
